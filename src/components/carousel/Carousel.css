@@ -1,0 +1,45 @@
+.carousel{
+    
+    width: 75%;
+   margin:auto;
+
+}
+
+.carousel-caption {
+    margin-bottom: 250px;
+    color: green;
+
+}
+
+.carousel-caption div {
+    width: 150px;
+    height: 40px;
+    color: black;
+    background-color: green;
+    margin-left: 290px;
+    
+}
+
+.carousel-caption p{
+    padding-top:10px;
+    font-weight: lighter;
+}
+
+.SecSlide{
+    padding-top: 80px;
+    padding-right: 500px;
+    
+}
+
+.SecSlide h1 {
+
+}
+
+.SecSlide h2{
+
+}
+
+.SecSlide div {
+margin-left: 40px;
+margin-top: 80px;
+}

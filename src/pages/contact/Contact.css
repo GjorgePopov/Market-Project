@@ -1,0 +1,346 @@
+
+
+
+
+
+ .Contact {
+  margin: 40px 0px 0px 150px;
+  text-align: center;
+  background-color: white;
+  width: 80%;
+  height: 100%;
+  
+}
+
+.Contact h2 {
+  color: darkgreen;
+  padding-top: 90px;
+}
+
+.Contact p {
+  padding-top: 10px;
+  font-size: medium;
+}
+
+.HorisontalLine {
+  margin: 100px 0px 0px 200px;
+  width: 60%
+  
+  
+}
+
+.line {
+  color: black;
+
+  
+
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 0px 0px 110px;
+  width: 80%;
+}
+
+
+
+/*from here*/
+
+ .contact-container-form {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+.contact-input input {
+    width: 350px;
+    height: 30px;
+    margin-bottom: 0.3em;
+}
+
+.contact-input input:focus {
+    border: 2px solid transparent;
+
+
+}
+
+.contact-input span {
+    margin-bottom: 0.3em;
+    color: black;
+}
+
+
+.contact-message {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px 0px 0px;
+    
+}
+
+.contact-message span {
+    color: black;
+    margin-left: 25%;
+    margin-bottom: 0.5em; 
+
+}
+
+.contact-message textarea {
+    width: 770px;
+    height: 200px;
+    margin: auto;
+}
+
+form button {
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(104, 209, 104);
+    align-items: center;
+    justify-content: center;
+}
+
+
+form button:hover {
+    background-color: white;
+}
+
+.leaflet-container{
+  position: absolute;
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+
+    .contact-container-form {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .contact-message {
+        padding-left: 80px;
+    }
+
+
+    .contact-message textarea {
+        width: 90%;
+        margin: auto;
+      }
+
+      .contact-message span {
+        margin: auto;
+
+      }
+
+      .opening-hours span{
+        display: flex;
+        flex-direction: row;
+
+      }
+
+}
+
+@media only screen and (max-width: 765px) {
+    .contact-message textarea {
+        width: 200px;
+        height: 200px;
+    }
+
+  .contact-title p {
+    width: auto;
+  }
+
+  .contact-container .main {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-container .contact {
+    padding-left: 0px;
+    margin: auto
+  }
+
+  .contact-container .address {
+    margin: auto;
+  }
+
+  .contact-container .address h6 {
+    margin: auto;
+  }
+
+  .contact-container .address p {
+    width: auto;
+    margin: auto;
+  }
+  .contact-container .opening-hours span {
+    margin: auto;
+    width: 300px;
+    width: 85%;
+
+  }
+
+  .contact-container .span {
+    margin: auto;
+  }
+
+  .contact-container-form {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-container .contact-input {
+    margin: auto;
+  }
+
+  .contact-input input {
+    width: 100%;
+  }
+
+  .contact-message {
+    padding-left: 0;
+  }
+
+  .contact-message textarea {
+    width: 100%;
+  }
+
+
+
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+    .contact-message textarea {
+        width: 200px;
+        height: 200px;
+    }
+
+  .contact-title p {
+    width: auto;
+  }
+
+  .contact-container .main {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-container .contact {
+    padding-left: 0px;
+    margin: auto
+  }
+
+  .contact-container .address {
+    margin: auto;
+  }
+
+  .contact-container .address h6 {
+    margin: auto;
+  }
+
+  .contact-container .address p {
+    width: auto;
+    margin: auto;
+  }
+  .contact-container .opening-hours span {
+    margin: auto;
+    width: 300px;
+    width: 85%;
+  }
+.contact-container .span {
+    margin: auto;
+  }
+
+  .contact-container-form {
+    display: block;
+    width: 100%;
+  }
+
+  .contact-container .contact-input {
+    margin: auto;
+  }
+
+  .contact-input input {
+    width: 100%;
+  }
+
+  .contact-message {
+    padding-left: 0;
+  }
+
+  .contact-message textarea {
+    width: 100%;
+  }
+
+
+
+  }
+
+
+  /** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contactContainer{
+  width: 90%;
+  background-color: white;
+
+}
+
+.contactUs{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 5% 10%;
+  border-bottom: 1px solid black;
+  justify-content: center;
+  margin: 0% 19%;
+}
+
+.contactUsH3{
+  text-align: center;
+}
+
+.contactUsParagraph{
+  text-align: center;
+}
+
+.contactInfo{
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 5%;
+  margin: 0% 11%;
+}
+
+.contactForm{
+  display: flex;
+  justify-content: space-between; 
+  margin: 0% 11%; 
+  padding: 5%;
+  flex-wrap: wrap;
+}
+
+.contactInput{
+  width: 350px;
+  padding: 2% 0%;
+}*/
+
+
+

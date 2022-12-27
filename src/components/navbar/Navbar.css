@@ -1,0 +1,28 @@
+
+
+.navbar {
+    width: 70%;
+    margin: auto;
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: darkgreen;
+}
+
+
+
+
+.d-flex input:focus{
+    outline: none;
+    border: none;
+  
+    
+}
+
+.d-flex input {
+    border: none; 
+     border-bottom: 1px solid black;
+}

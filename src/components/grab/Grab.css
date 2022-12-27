@@ -1,0 +1,87 @@
+.items-container {
+    background:white;
+    width: 80%;
+    margin: 10% auto;
+    margin: 5% auto;
+
+    padding-bottom: 30px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    
+    text-align: center;
+    padding-top: 50px;
+}
+.items h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    color: rgb(0, 88, 0);
+    
+}
+.item {
+    margin: auto;
+}
+.item h5{
+    margin-top: 50px;
+}
+.items button:nth-child(6) {
+    width: 200px;
+    margin-top: 8px;
+    font-size: medium;
+}
+.items p {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input-field input {
+    border-left: none;
+    border-right: none;
+} 
+.input-field button {
+    height: 40px;    
+    width: 40px;
+    background-color: white;
+    border-width: 1px;
+    font-weight: 200;
+    font-size: larger;
+    
+}
+.input-field input {
+    text-align: center;
+    width: 100px;
+    border-width: 1px;
+    padding-top: 3px;
+    height: 36px;
+    
+}
+.input-field button {
+    text-align: center;
+    width: 50px;
+    height: 35px;
+    border-width: 1px;
+    background-color: white;
+}
+.CartBtn {
+    background-color: white;
+    border: 1px solid;
+    height: 35px;
+    margin-top: 10px;
+}
+.input-field button:nth-child(1) {
+    border-right: none;
+}
+.input-field button:nth-child(3) {
+    border-left: none;
+} 

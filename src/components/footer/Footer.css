@@ -1,0 +1,47 @@
+.AboutFooter {
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px 100px 150px;
+    width: 80%;
+    height: 70vh;
+
+    
+}
+
+.Store {
+    margin: 70px 0px 70px 120px;
+    font-weight: lighter;
+}
+
+.Store h3{
+    font-weight: lighter;
+}
+
+.Adress{
+    margin: 70px 60px 0px 80px ;
+    font-weight: lighter;
+}
+
+.Adress h3 {
+    font-weight: lighter;
+}
+
+.OpeningHours {
+    margin: 70px 90px 0px 0px;
+    font-weight: lighter;
+}
+
+.OpeningHours h3 {
+    font-weight: lighter;
+}
+
+.GetItFresh{
+    margin: 70px 150px 0px 0px;
+    font-weight: lighter;
+}
+
+.GetItFresh h3 {
+    font-weight: lighter;
+}

@@ -1,0 +1,133 @@
+
+.deals {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  color: darkgreen;
+  
+}
+
+.deals h2 {
+font-weight: bold;
+}
+
+.Paragraph {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+  
+}
+
+body {
+  background-color: blanchedalmond;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  margin-top: 70px;
+  width: 60%;
+  height: 500px;
+  
+}
+
+.swiper-slide {
+ 
+  font-size: 18px;
+  background-color:#fff;
+  
+  
+ 
+}
+
+.price p{
+  color:white;
+  background-color: darkgreen;
+  width: 120px;
+  font-weight: lighter;
+  color: white;
+  
+  
+}
+
+.swiper-slide img {
+  display:block;
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  margin-left: 60px;
+  
+}
+
+
+
+.button {
+  display: flex;
+ margin-left: 10px;
+  
+}
+
+.button button {
+  border: 2px solid black;
+  
+  background-color: #fff;
+height: 30px;
+width: 35px;
+margin-left: 42px;
+}
+
+
+
+.button  p{
+
+
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: black;
+  padding-left: 60px;
+  
+  
+  
+  
+}
+
+
+
+.product {
+  display: flex;
+  justify-content: center;
+
+margin-top: 80px;
+}
+
+.dolarprice {
+  display: flex;
+  justify-content: center;
+}
+
+
+.add {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.add button {
+  width: 200px;
+ 
+}
+
+

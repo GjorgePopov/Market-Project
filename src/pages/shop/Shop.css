@@ -1,0 +1,190 @@
+.filter-container {
+    padding-left: 18%;
+    padding-top: 40px;
+}
+
+.filter-container button {
+    background-color: transparent;
+    border: none;
+}
+
+.shop-container {
+    background-color: white;
+    width: 100%;
+}
+
+.shop-title {
+    text-align: center;
+    padding-top: 8%;
+}
+
+.shop-title p {
+    padding-top: 10px;
+}
+
+
+.filter-container button{
+    display: flex;
+
+}
+
+.shops-nav {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-top: 1px solid;
+    padding-top: 40px;
+    border-bottom: 1px solid;
+
+}
+
+
+.shops-nav ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.shops-nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.shops-nav ul a:hover {
+    color: gray;
+}
+
+.shops-nav ul a::after {
+    color: black;
+    font-weight: bold;
+}
+
+.input-range {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-top: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 50px;
+
+}
+
+
+.input-range input {
+    padding-top: 30px;
+}
+
+
+.shop-container .items {
+padding-top: 0;
+}
+
+.shop-elements {
+    display: flex;
+}
+
+.dropdown-button {
+    width: 200px;
+   margin: auto;
+   
+}
+
+.Dropdown-control {
+    cursor: pointer;
+}
+
+.shop-elements .dropdown {
+    padding-top: 40px;
+    margin: auto;
+}
+
+ .shop-elements .items {
+    width: 700px;
+    display: flex;
+    margin-right: 300px;
+    padding-top: 30px;
+    
+}
+
+
+.shop-elements .items button:nth-child(6) {
+    width: 125px;
+}
+
+ .shop-elements .input-field {
+   
+    padding-left: 5px;
+
+}
+
+
+
+.page-changer{
+    padding-top: 90px;
+    padding-bottom: 30px;
+    margin: auto;
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .shop-elements .CartBtn {
+        margin: 0px 10px;
+    }    
+
+}
+
+@media only screen and (max-width: 765px) {
+    .shop-elements {
+        display: block;
+
+    }
+
+    .shop-elements .items {
+       width: 400px;
+        margin-right: auto;
+    }
+
+  .shop-elements .input-field {
+        padding-left: 20px;
+  }
+
+  .shop-elements .CartBtn {
+    margin: 0px 20px;
+
+  }
+
+
+  }
+
+
+
+  @media only screen and (max-width: 300px) {
+    footer .main {
+        display: block;
+
+    }
+
+    .address {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .opening-hours {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+
+    .get-fresh {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .icons {
+        padding-left: 0;
+    }
+}
